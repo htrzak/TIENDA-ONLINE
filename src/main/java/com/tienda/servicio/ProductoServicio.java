@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import com.tienda.modelo.Producto;
 
 @Service
-public interface ProductoService {
+public interface ProductoServicio {
 	public Producto save( Producto producto);
 	public Optional<Producto> get(Integer id);
 	public void update(Producto producto);
